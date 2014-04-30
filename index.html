@@ -77,7 +77,24 @@
       }
       
       /*Marketing Copy and Footer*/
-
+      .copy {
+      padding-top: 2.5%;
+      padding-bottom:2.5%;
+      text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color:#cccccc;
+        text-align: center;
+      }
+      .footer p{
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
     </style>
   </head> 
   <body>
@@ -160,34 +177,93 @@
 	<!--See: http://noizwaves.github.io/bootsrap-social-buttons-->
 	<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
 	<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-      <div class="order">
-	Order
-      </div>
-      <div class="social">
-	Social
       </div>
     </div>
-  </div>
-  <div class="row section1">
-    <div class="span12">
-      Request rides from your smartphone.
-      Donate what you want.
-      Have more fun.
+    </div>	
+    
+    <!--Beyond this part the marketing copy begins.-->
+    <!--httops://developer.mozilla.org/en-US/docs/Web/CSS/text-align-->
+    <!--http:/twitter.github.io/bootstrap/base-css.html#images-->
+    <!--http://placehold.it-->
+    <div class="row-fluid section1">
+      <div class="span5 offset1 asset">
+	<img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>	
+      <div class="span5 copy">
+	<p>
+          Request rides from your smartphone.
+          Donate what you want.
+          Have more fun.
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
+	  ;;laksdjfopaismvl;kasdjfanbvl;aksdfjaoifbnva;lksdng
+	  ;alskdjvoietnrva;lksdjvoiaen;slkdvdnopcaei;djvkmna
+	  a;lsknvoeira;smdklcvnpoaer;widjnvkcxd;akslrdfmc
+	  ;lsdknvoiearnfldkvnsrtoae;rngdfkmcaelr;skdnvcm.,saeropsedi;lf
+	  vj;laksdfasld;kvnmoe;weisndm,svnipsargnfvjskdfndv
+	</p>
+      </div>
     </div>
-  </div>
-  <div class="row section2">
-    <div class="span12">
-      Marketing Section 2
+
+    <div class="row-fluid section2">
+      <div class="span5 offset1 copy copy-right">
+	<p>
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv`
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
+	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
+	</p>
+      </div>
+      <div class="span5 asset">
+	<img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
     </div>
+
+<!--For the FAQ, we introduce a little bit of JS, using the accordian -->
+<!--This brings in jquery.js and bootstrap.js as dependencies.-->
+<!--http://twitter.github.io/bootstrap/javascript.html#collapse-->
+    <div class="row-fluid faq">
+      <div class="span10 offset1">
+	<h3>FAQ</h3>
+	<div class="accordian" id="accordian2">
+	  <div class="accordian-group">
+	    <div class="accordian-heading">
+	      <a class="accordian-toggle" data-toggle="collapse"
+		 data-parent="#accordian2" href="#collapseOne">
+		What does FAQ stand for?
+	      </a>
+	    </div>
+	    <div id="collapseOne" class="accordian-body collapse">
+	      <div class="accordian-inner">
+		Frequently asked question
+	      </div>
+	    </div>
+	  </div>
+	  <div class="accordian-group">
+	    <div class="accordian-heading">
+	      <a class="accordian-toggle" data-toggle="collapse"
+		 data-parent="#accordian2" href="#collapseTwo">
+		What's a frequently asked question?
+	      </a>
+	    </div>
+	    <div id="collapseTwo" class="accordian-body collapse">
+	      <div class="accordian-inner">
+		A question which is commonly asked by users.
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
   </div>
-  <div class="row faq">
+
+  <div class="row-fluid footer">
     <div class="span12">
-      FAQ
-    </div>
-  </div>
-  <div class="row footer">
-    <div class="span12">
-      Footer
+      <p>This work is licensed under the 
+	<a href="http://creativecommons.org/licenses/by-sa/3.0/">
+	  CC By-SA 3.0
+	</a>, without all the cruft that would otherwise be put at the
+	bottom of the page. </p>
     </div>
   </div>
 </div>
