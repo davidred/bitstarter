@@ -48,6 +48,11 @@
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
         text-align: center;
       }
+
+      ol h2 {
+        line-height: 100%;
+      }
+
       p.lead {
         padding-top: 1.5%;
         font-size: 24px;
@@ -95,6 +100,13 @@
       .footer a {
         color: #ccccff;
       }
+
+      .backgroundPhoto {
+        background-image: url('http://imgur.com/7BQRuzv.png');
+        background-repeat:no-repeat;
+        background-position: 50% 50%;
+        height: 500px;
+      }
     </style>
   </head> 
   <body>
@@ -120,7 +132,8 @@
     </div>
 
     <div class="container">
-      <div class="row-fluid heading">
+    <div class="backgroundPhoto">
+       <div class="row-fluid heading">
 	<div class="span12">
 	  <h1>pickUp</h1>
 	</div>
@@ -129,6 +142,7 @@
       <div class="span12">
 	<p class="lead">Simple.Friendly.Transport.</p>
       </div>
+    </div>
     </div>
     <div class="row-fluid pitch">
       <div class="span5 offset1 video">
@@ -187,19 +201,31 @@
     <!--http://placehold.it-->
     <div class="row-fluid section1">
       <div class="span5 offset1 asset">
-	<img class="img-polaroid" src="http://placehold.it/480x300">
+	<img src="http://imgur.com/3kkoRwc.png">
       </div>	
       <div class="span5 copy">
-	<p>
-          Request rides from your smartphone.
-          Donate what you want.
-          Have more fun.
-	  laksdjfoakdvl;nas;ldkgjhla;sknmvopirjwef;lkja;lv
-	  ;;laksdjfopaismvl;kasdjfanbvl;aksdfjaoifbnva;lksdng
-	  ;alskdjvoietnrva;lksdjvoiaen;slkdvdnopcaei;djvkmna
-	  a;lsknvoeira;smdklcvnpoaer;widjnvkcxd;akslrdfmc
-	  ;lsdknvoiearnfldkvnsrtoae;rngdfkmcaelr;skdnvcm.,saeropsedi;lf
-	  vj;laksdfasld;kvnmoe;weisndm,svnipsargnfvjskdfndv
+	  <ol>
+	    <h2><li>Request rides with your phone</li></h2>
+	    <p>No need to wait outside to hail a cab. With a tap of a button, 
+	      pickUp will match you with all the closest drivers in the area
+	      and whoever you choose will be instantly on their way to get you!
+	      You'll see your drivers photo and a photo of their car so you
+	      know who's picking you up. You'll even be able to see where your 
+	      driver is
+	      real-time on the map, so you don't have to come outside until
+	      they actually arrive!</p>
+	      
+	    <h2><li>Donate what you want</li></h2>
+	    <p>Enjoyed the ride? Donate to your driver! With pickUp, you pay 
+	      what you want, even if that's nothing at all. Not sure how much 
+	      to give? pickUp will
+	      automagically calculate a suggested donation for you based on
+	      the distance you traveled and the time it took to get there.
+	      It works just like a taxi meter, except it's <em>always</em>
+	      cheaper. By about 30%. Seriously. 
+	    <h2><li>Have more fun</li></h2>
+	    <p>pickUp is like getting a ride from your friend. Sit up front, relax, and make yourself at home. Your driver will always be a friendly member of your community verified by the pickUp crew. Choose your radio station, charge your phone, chat it up. Your commute doesn't have to be all business when you're riding with us. If you didn't like the ride, rate it below three stars and we'll never pair you with that driver again. But we don't think that'll happen.
+	  </ol>
 	</p>
       </div>
     </div>
@@ -243,7 +269,7 @@
 	    <div class="accordian-heading">
 	      <a class="accordian-toggle" data-toggle="collapse"
 		 data-parent="#accordian2" href="#collapseTwo">
-		What's a frequently asked question?
+		What's a freqently asked question?
 	      </a>
 	    </div>
 	    <div id="collapseTwo" class="accordian-body collapse">
